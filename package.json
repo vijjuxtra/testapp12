@@ -1,0 +1,25 @@
+{
+  "name": "trade-bot",
+  "version": "1.0.0",
+  "description": "A trading bot application with authentication and dashboard",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "trading",
+    "bot",
+    "authentication",
+    "dashboard"
+  ],
+  "author": "Trade Bot Team",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.0",
+    "jest": "^27.0.0"
+  }
+}
